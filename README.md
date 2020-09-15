@@ -1,5 +1,5 @@
-### ToDoList 만들기
+### React로 ToDoList 만들기
 
-  공부를 열심히 한다고 했는데 아직 미숙하여 벨로퍼트님의 TodoList 만들기 거의 따라하기 식으로 진행한 것 같습니다....
-  
-  일단 오늘까지라 제대로 만들진 못했지만.. 앞으로 리액트 공부하면서 발전하겠습니다. 죄송합니다😭
+- Typescript 사용
+- Styled-Component 사용
+- class component 사용
