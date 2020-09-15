@@ -1,19 +1,43 @@
 import React from 'react';
-import './Template.css'
+import styled from 'styled-components';
+
+const Templates = styled.div`
+    background: white;
+    width: 512px;
+    margin: 0 auto; /* 페이지 중앙 정렬 */
+    margin-top: 4rem;
+`;
+
+const Title = styled.div`
+    padding: 2rem;
+    font-size: 2.5rem;
+    text-align: center;
+    background: #f38f83;
+    color: white;
+`;
+
+const FormWrapper = styled.section`
+    padding: 1rem;
+    border-bottom: 1px sloid #ffe4e1
+`;
+
+const TodosWrapper = styled.section`
+    min-height: 5rem;
+`;
 
 const Template = ({form, children}) => {
     return (
-        <main className="template">
-            <div className="title">
+        <Templates>
+            <Title>
                 TO DO LIST
-            </div>
-            <section className="form-wrapper">
+            </Title>
+            <FormWrapper>
                 {form}
-            </section>
-            <section className="todos-wrapper">
+            </FormWrapper>
+            <TodosWrapper>
                 { children }
-            </section>
-        </main>
+            </TodosWrapper>
+        </Templates>
     );
 };
 

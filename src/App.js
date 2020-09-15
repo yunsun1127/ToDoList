@@ -91,7 +91,7 @@ class App extends Component {
             onChange={handleChange}
             onCreate={handleCreate}
             />
-          )}>s
+          )}>
             <TodoItemList todos={todos} onToggle={handleToggle} onRemove={handleRemove}/>
           </Template>
       );
